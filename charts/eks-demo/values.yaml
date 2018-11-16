@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 428062593321.dkr.ecr.us-east-1.amazonaws.com/sainavya5/eks-demo
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 service:
   name: eks-demo
